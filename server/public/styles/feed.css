@@ -1,0 +1,28 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-template-rows: 25px auto auto;
+}
+
+.header {
+  background-color: blue;
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.main {
+  background-color: red;
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+
+.footer {
+  background-color: gold;
+  grid-column: 1 / 4;
+  grid-row: 3;
+}
